@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="es">
+	<head>
+		<meta charset="utf-8">
+		<title> Agencia de Viajes </title>
+
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+
+		<!-- Latest compiled and minified CSS -->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+		<link rel="stylesheet" href="http://netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css">
+		<link rel="stylesheet" href="css/plugins/pinterest_grid.css">
+		<Link rel="stylesheet" href="css/style.css">
+
+		<!-- jQuery library -->
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+		<!-- Popper JS -->
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+
+		<!-- Latest compiled JavaScript -->
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+		<!-- Pinterest grid plugin en js -->
+		
+		<script src="js/plugins/pinterest_grid.js"></script>
+		
+
+			<!-- Sticky JS -->
+		<!-- http://stickyjs.com/ -->
+		<!-- <script src="js/plugins/sticky.js"></script> -->
+
+	</head>
+	<body>
+
+		<!-- <div id="imgFondo"></div> -->
+		<header class="header container-fluid bg-white" id="top">
+
+			<nav class="navbar sticky-top navbar-expand-lg bg-dark navbar-dark container-fluid justify-content-between align-items-center">
+				  <!-- Brand/logo -->
+				<a class="navbar-brand " href="#">
+				   <img class="Logo" src="fotosAV/logo.png"  alt="logo">
+				</a>
+
+				 <!-- Toggler/collapsibe Button -->
+				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+				    <span class="navbar-toggler-icon"></span>
+				</button>
+
+				<div class="collapse navbar-collapse" id="navbarSupportedContent" >
+				  
+				  <!-- Links -->
+					<ul class="navbar-nav m-lg-auto">
+					   <li class="nav-item">
+					      <a class="nav-link" href="#bestSeller">Mas vendidos</a>
+					   </li>
+					   <li class="nav-item">
+					     <a class="nav-link" href="#travels">Descripcion viajes</a>
+					   </li>
+					   <li class="nav-item">
+					     <a class="nav-link" href="#contactForm">Contacto</a>
+					   </li>
+					   <li class="nav-item">
+					     <a class="nav-link" href="#aboutUs">Quienes somos</a>
+					   </li>
+					   <li class="nav-item">
+					     <a class="nav-link" href="#timetable">Horario</a>
+					   </li>
+					</ul>
+				</div>
+			</nav>
+	 
+		</header>
+
+		<div class="container-fluid bg-white" id="bestSeller" >
+			<br>
+			<br>
+			<h2 class="text-info bg-dark" >VIAJES MÁS VENDIDOS</h2>
+
+			<div id="demo" class="carousel slide" data-ride="carousel">
+
+			  <!-- Indicators -->
+			  <ul class="carousel-indicators">
+			    <li data-target="#demo" data-slide-to="0" class="active"></li>
+			    <li data-target="#demo" data-slide-to="1"></li>
+			    <li data-target="#demo" data-slide-to="2"></li>
+			    <li data-target="#demo" data-slide-to="3"></li>
+			    <li data-target="#demo" data-slide-to="4"></li>
+			    <li data-target="#demo" data-slide-to="5"></li>
+			    <li data-target="#demo" data-slide-to="6"></li>
+			    <li data-target="#demo" data-slide-to="7"></li>
+
+			  </ul>
+
+			  <!-- The slideshow -->
+			    <div class="carousel-inner" role="listbox">
+
+				    <div class="carousel-item active">	
+				      <img src="fotosAV/slides/Alicante.jpg" alt="Alicante" class="img-fluid">
+				      <div class="carousel-caption d-none d-lg-block">
+						    <h3>Alicante</h3>
+						    <p>4 días en apartamento: Playa de San Juan</p>
+					  </div>
+				    </div>
+
+				    <div class="carousel-item">
+				      <img src="fotosAV/slides/Almerimar.jpg" alt="Almerimar" class="img-fluid">
+				      <div class="carousel-caption d-none d-lg-block">
+						    <h3>Puerto Almerimar</h3>
+						    <p>Tour Andalucía una semana: playas, puertos, La Alhambra, La Giralda y mucho más...</p>
+					  </div>
+					</div>
+
+					<div class="carousel-item">
+				      <img src="fotosAV/slides/AltoCampoo.jpg" alt="AltoCampoo" class="img-fluid">
+				      <div class="carousel-caption d-none d-lg-block">
+						    <h3>Estación Alto Campoo</h3>
+						    <p>Semana blanca esquiando</p>
+					  </div>
+				    </div>
+
+				    <div class="carousel-item">
+				      <img src="fotosAV/slides/Carcassonne.jpg" alt="Carcassonne" class="img-fluid">
+				      <div class="carousel-caption d-none d-lg-block">
+						    <h3>Carcassonne</h3>
+						    <p>Escapada historica de fin de semana</p>
+					  </div>
+				    </div>
+
+				    <div class="carousel-item">
+				      <img src="fotosAV/slides/Firenze.jpg" alt="Florencia" class="img-fluid">
+				      <div class="carousel-caption d-none d-lg-block">
+						   <h3>Florencia</h3>
+						   <p>Todo incluido en 5 días</p>
+					  </div>
+				    </div>
+
+				    <div class="carousel-item">
+				      <img src="fotosAV/slides/LeyendaPisuerga.jpg" alt="LeyendadelPisuerga" class="img-fluid">
+				      <div class="carousel-caption d-none d-lg-block">
+						    <h3>La leyenda del Pisuerga</h3>
+						    <p>Un día en Valladolid; Museo de Escultura y viaje en la leyenda</p>
+					  </div>
+				    </div>
+				  
+				    <div class="carousel-item">
+				      <img src="fotosAV/slides/PuntaCana.jpg" alt="PuntaCana" class="img-fluid">
+				      <div class="carousel-caption d-none d-lg-block">
+						    <h3>Punta Cana</h3>
+						    <p>10 días en pensión completa resort-Playa (Vuelos y traslado)</p>
+					  </div> 
+
+				    </div>
+				
+				    <div class="carousel-item">
+				      <img src="fotosAV/slides/Roma.jpg" alt="Roma" class="img-fluid">
+				      <div class="carousel-caption d-none d-lg-block">
+						    <h3>Roma</h3>
+						    <p>Cinco días en la ciudad  eterna</p>
+					  </div>
+				    </div>
+				    
+
+			 	</div>
+
+			  <!-- Left and right controls -->
+			  <a class="carousel-control-prev" href="#demo" data-slide="prev">
+			    <span class="carousel-control-prev-icon"></span>
+			  </a>
+			  <a class="carousel-control-next" href="#demo" data-slide="next">
+			    <span class="carousel-control-next-icon"></span>
+			  </a>
+
+			</div>
+
+		</div>
+
+		<div class="container-fluid  bg-white" id="aboutUs">
+
+			<br>
+			<br>
+			<h2 class="text-info bg-dark">QUIENES SOMOS</h2>
+			<h3 class="text-info">Agencia de Viajes Postpandemia </h3>
+			<p class="text-info">Somos una Agencia de Viajes que trabaja unicamente online, creada  a raiz de la pandemia covid.<br>
+				 Organizamos viajes combinados detallando los nuevos requisitos de viaje dependiendo del pais y organizando citas para poder viajar con test en los casos en que no se este vacunado.<br>
+				 Deja en  nuestras manos el viaje, segun tus circunstancias, y  nosotros te organizaremos todo.</p> 
+		</div> 
+		
+		<div class="container-fluid"  id="travels">
+
+			<br>
+			<br>
+			<h2 class="text-info bg-dark">DESCRIPCION DE LOS VIAJES</h2>
+
+			<section class="pinterest_grid">
+
+				<article class="white-panel"> <img src="fotosAV/gallery/Alacant.jpg" >
+					<h1><a href="#">Alicante</a></h1>
+					<p>Apartamentos disponibles de 1, 2 o 3 habitaciones. Posibilidad de plaza de garaje. Todos nuestros  apartamentos están situados a menos de 1500 metros de la playa. Todos los accesorios y  electrodomésticos disponibles: lavadora, plancha, tendedero, microondas.</p>
+				</article>
+
+				<article class="white-panel"> <img src="fotosAV/gallery/AC.jpg">
+					<h1><a href="#">Alto Campoo</a></h1>
+					<p>Hotel desde 3 estrellas, en alojamiento y desayuno a 20 km de la estación de esqui. Semana de entrada a la estación incluída. No incluido el traslado diario desde la estación al hotel y  viceversa. No incluido el material de esqui: casco, bastones, esquis y botas.</p>
+				</article>
+
+				<article class="white-panel"> <img src="fotosAV/gallery/Almeri.jpg" >
+					<h1><a href="#">Tour Andalucía</a></h1>
+					<p>Salida desde Madrid en autocar. Alojamiento en hoteles de 3, 4 y 5 estrellas, en régimen de desayuno. Entradas a la Alhambra, a la Giralda, a Poblados Oeste Tabernas Mini Hollywood incluidas. Dos días en Granada, dos días en Sevilla, dos en Málaga y uno en Almería. Vuelta en autocar a Madrid.</p>
+					<p>
+				</article>
+
+				<article class="white-panel"> <img src="fotosAV/gallery/Carcassonn.jpg" >
+					<h1><a href="#">Carcassonne</a></h1>
+					<p>Vuelos ida y vuelta desde Madrid. Traslado aeropuerto hotel y  viceversa. Hotel 4 estrellas en régimen alojamiento y desayuno. Guía turística incluída durante el recorrido a pie en ciudad: canal del medio, viejo puente, Basílica de San Nazaré, Castillo Condal y Museo de la Inquisición.</p>
+				</article>
+
+				<article class="white-panel"> <img src="fotosAV/gallery/Valladolid.jpg" >
+					<h1><a href="#">Valladolid</a></h1>
+					<p>Este recorrido turístico por las calles de Valladolid con guía, incluye las visitas internas del museo de Escultura, y el trayecto en la Leyenda del Pisuerga donde les acompañará su guía. El recorrido inicia a las 10.30 de la mañana en la plaza Zorrilla y termina a las 14.00. Se recorrerán la Antigua, La catedral, la casa Museo Cervantes, la casa Colón, la Casa Consistorial, la cúpula del Milenio, y las cadenas de San Gregorio.</p>
+				</article>
+
+				<article class="white-panel"> <img src="fotosAV/gallery/Florencia.jpg" >
+					<h1><a href="#">Firenze</a></h1>
+					<p>Salidas en avión desde Madrid y Barcelona. Vuelo ida y vuelta directo. Traslado hotel. Hotel de 4 estrellas media pensión. Posibilidad de alquiler de segway o bicicletas. Visitas incluídas con cita guía en el exterior: Palacio Pitti y jardines, Santa Maria la Novella, la catedral y el campanario, galeria de los Uffizzi. Recorrido aconsejado sin guía: puente Vecchio y plaza de Michelangelo. </p>
+				</article>
+
+				<article class="white-panel"> <img src="fotosAV/gallery/Rome.jpg" >
+					<h1><a href="#">Roma</a></h1>
+					<p>Salida y regreso desde Madrid en avión. Traslado desde aeropuerto a hotel y viceversa. Hotel 4 estrellas en pleno centro histórico en media pensión. Visitas incluídas: </p>
+					<p>Día 1: El Vaticano (1 día completo). Resto de tarde: visita exterior de Castillo y puente de San Angelo, tribunal de Justicia. </p>
+					<p>Día 2: El foro Imperial y el Coliseo (visita interna mañana), el palacio Victorio Enmanuel (visita interna tarde).</p>
+					<p>Día 3: Paseo por Basílica de Santa María la Mayor, y termas de Diocleziano, jardines de Quirinal, Fontana de Trevi, y Plaza Navona.  Tarde visita interna Basílica de San Giovanni in Laterano.</p>
+					<p>Día 4: Paseo Largo Argentina, Templo de Vespa, la boca de la verdad, Trastevere. Tarde paseo y vistas desde Parque Villa Borgeshe.</p>
+					<p>Día 5: Mañana tour en bici por Via Appia Vecchia. Recorrido: Terme di Caracalla, Porta di San Sebastiano, Catacombe de San Calisto y de San Sebastiano, tumba de Cecilia Metella. Tarde: Domus Aurea y Circo Massimo.</p>
+				</article>
+
+				<article class="white-panel"> <img src="fotosAV/gallery/PC.jpg" >
+					<h1><a href="#">Punta Cana</a></h1>
+					<p>Ida y vuelta en avión desde Madrid. Traslado hotel. Resort en la playa con piscina y canchas de tenis. Pensión completa. Menú buffet, dasayuno, comida y cena. Posibilidad de alquilar barca y equipo submarinismo.</p>
+				</article>
+
+			</section>
+		</div>
+		
+		<div class="container bg-white" id="timetable">
+			<br>
+			<br>
+			 <h2 class="text-info bg-dark">HORARIO:</h2>
+			             
+			 <table class="table table-dark">
+			    <thead>
+			      <tr>
+			        <th>Días de la semana</th>
+			        <th>Horario</th>
+			        
+			      </tr>
+			    </thead>
+			    <tbody>
+			      <tr>
+			        <td>Lunes-Martes-Miércoles-Jueves</td>
+			        <td>9.30-14.00, 15:30-18:00</td>
+			        
+			      </tr>
+			      <tr>
+			        <td>Viernes-Sábado</td>
+			        <td>9:00-15:00</td>
+			        
+			      </tr>
+			      <tr>
+			        <td>Domingo</td>
+			        <td>Cerrado</td>
+			        
+			      </tr>
+			    </tbody>
+			 </table>
+		</div>
+
+		<div class="container" id="contactForm">
+			<br>
+			<br>
+		  	<h2 class="text-info bg-dark">FORMULARIO DE CONTACTO:</h2>
+		  
+		  	<form action="/action_page.php" class="was-validated">
+		    	<div class="form-group">
+			      <label for="uname">Nombre y apellidos:</label>
+			      <input type="text" class="form-control" id="uname" placeholder="Introducir nombre y apellidos" minlength="" ="6" maxlength="" ="35" pattern="(?=.*[A-Za-z]).{6,35}" required>
+			      <div class="valid-feedback">Valido.</div>
+			      <div class="invalid-feedback">Por favor, rellenar este campo. Es obligatorio</div>
+		    	</div>
+		    	<div class="form-group">
+			      <label for="email">Email:</label>
+			      <input type="email" class="form-control" id="email" placeholder="Escribir email"  required>
+			      <div class="valid-feedback">Valido.</div>
+			      <div class="invalid-feedback">Por favor, rellenar este campo. Es obligatorio</div>
+		    	</div>
+		    	<div class="form-group">
+			      <label for="tfno">Teléfono:</label>
+			      <input type="number" class="form-control" id="tfno" placeholder="Introducir teléfono" min="111111111" maxlength="999999999" step="1" required>
+			      <div class="valid-feedback">Valido.</div>
+			      <div class="invalid-feedback">Por favor, rellenar este campo. Es obligatorio</div>
+		    	</div>
+		    	<div class="form-group">
+			      <label for="Comments">Mensaje:</label>
+			      <textarea id="Comments" cols=83 rows=8 size="65" required></textarea>
+			      <!-- <div class="valid-feedback">Valido.</div>
+			      <div class="invalid-feedback">Por favor, rellenar este campo. Es obligatorio</div> -->
+		    	</div>
+		    	<div class="form-group form-check">
+			      	<label class="form-check-label">
+				        <input class="form-check-input" type="checkbox" required> <span class="check"></span> ...  Seré contactada por email o teléfono.
+				        <div class="valid-feedback">Valido.</div>
+				        <div class="invalid-feedback">Por favor, clicar este campo. Es obligatorio</div>
+			      	</label>
+		    	</div>
+		    	<button type="submit" class="btn btn-dark">Enviar</button>
+		  	</form>
+		</div>
+ 		<script src="js/script.js"></script>
+		
+
+	</body>
+
+</html>
